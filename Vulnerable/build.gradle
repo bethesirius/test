@@ -37,7 +37,9 @@ checkstyleMain {
 
 
 apply plugin: 'findbugs'
-
+dependencies {		
+     findbugsPlugins 'com.h3xstream.findsecbugs:findsecbugs-plugin:1.4.4'		
+ }
 findbugsMain {
     ignoreFailures = true
      reports {
