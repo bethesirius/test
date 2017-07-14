@@ -1,5 +1,5 @@
 apply plugin: 'java'
-apply plugin: 'checkstyle'
+'
 
 repositories {
     // Use 'jcenter' for resolving your dependencies.
@@ -19,15 +19,13 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-
-
+apply plugin: 'checkstyle
 checkstyle {
     toolVersion = '6.7'
-  ignoreFailures = true // 분석결과 예외가 발생하면 빌드실패 발생시키는 것을 제외
-    configFile = file("checkstyle.xml") // 1.1.2 에서 작성한 checkstyle 파일 지정
-    reportsDir = file("${buildDir}/checkstyle-output") // 리포트 파일이 위치할 디렉토리 지정
+  ignoreFailures = true
+    configFile = file("checkstyle.xml")
+    reportsDir = file("${buildDir}/checkstyle-output")
 }
-
 checkstyleMain {
     ignoreFailures = true
     reports {
