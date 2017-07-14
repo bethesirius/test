@@ -28,7 +28,6 @@
         <configuration>
           <xmlOutput>true</xmlOutput>
           <!-- Optional directory to put findbugs xdoc xml report -->
-          <xmlOutputDirectory>target/site/findbugs</xmlOutputDirectory>
           <plugins>
           <plugin>
           <groupId>com.h3xstream.findsecbugs</groupId>
