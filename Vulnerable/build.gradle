@@ -1,5 +1,5 @@
 apply plugin: 'java'
-'
+
 
 repositories {
     // Use 'jcenter' for resolving your dependencies.
@@ -19,7 +19,7 @@ dependencies {
     testCompile 'junit:junit:4.12'
 }
 
-apply plugin: 'checkstyle
+apply plugin: 'checkstyle'
 checkstyle {
     toolVersion = '6.7'
   ignoreFailures = true
