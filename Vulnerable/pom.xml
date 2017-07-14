@@ -34,16 +34,16 @@
           <artifactId>findsecbugs-plugin</artifactId>
           <version>LATEST</version> <!-- Auto-update to the latest stable -->
           </plugin>
-          <plugin>
+          </plugins>
+        </configuration>
+      </plugin>
+      <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-checkstyle-plugin</artifactId>
           <version>LATEST</version>
           <configuration>
           <configLocation>checkstyle.xml</configLocation>
           </configuration>
-          </plugin>
-          </plugins>
-        </configuration>
       </plugin>
     </plugins>
   </reporting>
