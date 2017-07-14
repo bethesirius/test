@@ -26,7 +26,7 @@
         <artifactId>findbugs-maven-plugin</artifactId>
         <version>3.0.4</version>
         <configuration>
-          <xmlOutput>false</xmlOutput>
+          <xmlOutput>true</xmlOutput>
           <!-- Optional directory to put findbugs xdoc xml report -->
           <xmlOutputDirectory>target/site/findbugs</xmlOutputDirectory>
         </configuration>
