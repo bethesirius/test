@@ -45,7 +45,13 @@
                     <configuration>
             <configLocation>checkstyle.xml</configLocation>
           </configuration>
-
+        <dependencies>
+          <dependency>
+              <groupId>com.puppycrawl.tools</groupId>
+              <artifactId>checkstyle</artifactId>
+              <version>8.0</version>
+          </dependency>
+        </dependencies>
           <reportSets>
             <reportSet>
               <reports>
