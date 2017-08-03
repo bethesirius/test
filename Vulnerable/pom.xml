@@ -60,11 +60,6 @@
           </plugins>
         </configuration>
       </plugin>
-	<plugin>
-    	    <groupId>hep.testdata.aida</groupId>
-	    <artifactId>lizard</artifactId>
-	    <version>1.0</version>
-	</plugin>
     <plugin>
       <artifactId>maven-checkstyle-plugin</artifactId>
       <reportSets>
